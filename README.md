@@ -51,58 +51,58 @@ The questions.json file should have the following structure:
 
 json
 
-{
-    "title": "Example Exam | 1",
-    "questions": [
-        {
-            "text": "What is the capital city of France?",
-            "points": 1,
-            "options": [
-                {"text": "Berlin", "is_correct": false},
-                {"text": "Madrid", "is_correct": false},
-                {"text": "Paris", "is_correct": true},
-                {"text": "Rome", "is_correct": false}
-            ]
-        },
-        {
-            "text": "Which is the largest continent by land area?",
-            "points": 1,
-            "options": [
-                {"text": "Africa", "is_correct": false},
-                {"text": "Asia", "is_correct": true},
-                {"text": "Europe", "is_correct": false},
-                {"text": "This is a very long answer to showcase that we can deal with linebreaks if needed. Not perfect but works reasonably well.", "is_correct": false}
-            ]
-        },
-        {
-            "text": "Which river is the longest in the world?",
-            "points": 1,
-            "options": [
-                {"text": "Amazon River", "is_correct": false},
-                {"text": "Nile River", "is_correct": true},
-                {"text": "Yangtze River", "is_correct": false},
-                {"text": "Mississippi River", "is_correct": false}
-            ]
-        },
-        {
-            "text": "Mount Everest is located in which mountain range?",
-            "points": 1,
-            "options": [
-                {"text": "Andes", "is_correct": false},
-                {"text": "Rockies", "is_correct": false},
-                {"text": "Himalayas", "is_correct": true},
-                {"text": "Alps", "is_correct": false}
-            ]
-        },
-        {
-            "text": "Which country has the largest population?",
-            "points": 1,
-            "options": [
-                {"text": "India", "is_correct": false},
-                {"text": "United States", "is_correct": false},
-                {"text": "China", "is_correct": true},
-                {"text": "Indonesia", "is_correct": false}
-            ]
-        },
-    ]
-}
+    {
+        "title": "Example Exam | 1",
+        "questions": [
+            {
+                "text": "What is the capital city of France?",
+                "points": 1,
+                "options": [
+                    {"text": "Berlin", "is_correct": false},
+                    {"text": "Madrid", "is_correct": false},
+                    {"text": "Paris", "is_correct": true},
+                    {"text": "Rome", "is_correct": false}
+                ]
+            },
+            {
+                "text": "Which is the largest continent by land area?",
+                "points": 1,
+                "options": [
+                    {"text": "Africa", "is_correct": false},
+                    {"text": "Asia", "is_correct": true},
+                    {"text": "Europe", "is_correct": false},
+                    {"text": "This is a very long answer to showcase that we can deal with linebreaks if needed. Not perfect but works reasonably well.", "is_correct": false}
+                ]
+            },
+            {
+                "text": "Which river is the longest in the world?",
+                "points": 1,
+                "options": [
+                    {"text": "Amazon River", "is_correct": false},
+                    {"text": "Nile River", "is_correct": true},
+                    {"text": "Yangtze River", "is_correct": false},
+                    {"text": "Mississippi River", "is_correct": false}
+                ]
+            },
+            {
+                "text": "Mount Everest is located in which mountain range?",
+                "points": 1,
+                "options": [
+                    {"text": "Andes", "is_correct": false},
+                    {"text": "Rockies", "is_correct": false},
+                    {"text": "Himalayas", "is_correct": true},
+                    {"text": "Alps", "is_correct": false}
+                ]
+            },
+            {
+                "text": "Which country has the largest population?",
+                "points": 1,
+                "options": [
+                    {"text": "India", "is_correct": false},
+                    {"text": "United States", "is_correct": false},
+                    {"text": "China", "is_correct": true},
+                    {"text": "Indonesia", "is_correct": false}
+                ]
+            },
+        ]
+    }
