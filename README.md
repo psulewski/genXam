@@ -36,7 +36,7 @@ Command
 
 bash
 
-python generate_exam.py
+    python generate_exam.py
 
 This command will produce the following PDF files:
 
