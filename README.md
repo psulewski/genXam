@@ -1,5 +1,5 @@
-# genXam: 
-## lightweight multiple choice exam generator
+# genXam 
+## Your lightweight multiple choice exam generator
 
 This repository contains a Python script that generates PDF exams from a JSON file containing questions and options. The purpose of this project is to simplify the creation of customizable exams that can be printed or shared electronically.
 
