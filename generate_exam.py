@@ -86,8 +86,9 @@ def generate_exam_pdf(json_file, output_filename, solved=False, version_name="")
         
         for i, option in enumerate(question['options']):
             option_text = f"{option_letters[i]}) {option['text']}"
+            c.rect(left_offset + 45, y_position - 2, 10, 10)
             y_position = draw_wrapped_text(c, option_text, left_offset + 70, y_position, 430)
-            c.rect(left_offset + 45, y_position + 15, 10, 10)
+            #c.rect(left_offset + 45, y_position + 15, 10, 10)
             if solved and option['is_correct']:
                 c.drawString(left_offset + 45, y_position + 15, "✓")
             y_position -= 10
